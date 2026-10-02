@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Resultado Petición 3</h1>
+<p>Lista de materiales extraídos de todos los objetos:</p>
+<ul>
+    <li th:each="material : ${materiales}" th:text="${material}"></li>
+</ul>
+<a th:href="@{/}">Volver</a>
+</body>
+</html>

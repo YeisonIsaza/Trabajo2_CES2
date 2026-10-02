@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Resultado Petición 4</h1>
+<ul>
+    <li>Hay algun material que pese más de 15kg? (anyMatch): <strong th:text="${hayMaterialPesado}"></strong></li>
+    <li>Hay elementos que sean de Carton? (anyMatch): <strong th:text="${hayCarton}"></strong></li>
+    <li>Es cierto que NO hay pesos negativos? (noneMatch): <strong th:text="${noHayNegativos}"></strong></li>
+</ul>
+<a th:href="@{/}">Volver</a>
+</body>
+</html>

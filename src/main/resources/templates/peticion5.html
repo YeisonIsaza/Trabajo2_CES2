@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Resultado Petición 5</h1>
+<p>El objeto con el mayor peso es:</p>
+<ul>
+    <li>Material: <span th:text="${mayor.material}"></span></li>
+    <li>Peso (Kg): <span th:text="${mayor.pesoKg}"></span></li>
+</ul>
+<a th:href="@{/}">Volver</a>
+</body>
+</html>

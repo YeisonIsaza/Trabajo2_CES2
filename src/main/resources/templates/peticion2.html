@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Resultado Petición 2 (Estadísticas de Pesos)</h1>
+<ul>
+    <li>Conteo: <span th:text="${conteo}"></span></li>
+    <li>Suma Total: <span th:text="${suma}"></span></li>
+    <li>Promedio: <span th:text="${promedio}"></span></li>
+    <li>Mínimo: <span th:text="${min}"></span></li>
+    <li>Máximo: <span th:text="${max}"></span></li>
+</ul>
+<a th:href="@{/}">Volver</a>
+</body>
+</html>
